@@ -1,0 +1,29 @@
+2026-03-11 15:47:28,661 [ERROR] backend.ai.gemini_client: JSON parse error depuis Gemini: Unterminated string starting at: line 6 column 14 (char 203) | raw: {
+    "titre": "Une belle fête de famille pour le Mouloud",
+    "type_texte": "narratif",
+    "niveau_cefr": "A1+",
+    "theme": "Célébration d'une fête religieuse et familiale en Algérie",
+    "texte
+2026-03-11 15:47:28,664 [ERROR] frontend.pages.page_texte: Erreur génération texte: Échec de la génération du texte : La réponse du service IA était malformée. Veuillez réessayer.
+2026-03-11 15:48:26,679 [ERROR] backend.ai.gemini_client: JSON parse error depuis Gemini: Unterminated string starting at: line 5 column 17 (char 155) | raw: {
+    "titre": "Rencontre à la fête de l'école",
+    "niveau": "1AM",
+    "competence": "Comprendre et produire un texte de présentation",
+    "contexte": "C'est la fête de l'école au Collège d'Enseig
+2026-03-11 15:48:26,681 [ERROR] frontend.pages.page_situation: Erreur génération situation: Échec de la génération de la situation : La réponse du service IA était malformée. Veuillez réessayer.
+2026-03-11 15:49:48,831 [ERROR] backend.ai.gemini_client: JSON parse error depuis Gemini: Expecting ',' delimiter: line 6 column 22 (char 260) | raw: {
+    "titre": "Grille d'évaluation sommative de la production écrite: 'J'exprime mon avis'",
+    "niveau": "1AM",
+    "type_production": "Ecrite",
+    "competence": "Produire un texte argumentatif (s
+2026-03-11 15:49:48,833 [ERROR] frontend.pages.page_grille: Erreur generation grille: Échec de la génération de la grille : La réponse du service IA était malformée. Veuillez réessayer.
+2026-03-11 15:57:13,484 [ERROR] backend.ai.gemini_client: JSON parse error depuis Gemini: Unterminated string starting at: line 6 column 14 (char 155) | raw: {
+    "titre": "Les émotions de l'Aïd",
+    "type_texte": "narratif",
+    "niveau_cefr": "A2",
+    "theme": "L'Aïd El Fitr et la solidarité",
+    "texte": "Amira et Sami, deux amis du quartier, prépar
+2026-03-11 15:57:13,484 [ERROR] frontend.pages.page_texte: Erreur génération texte: Échec de la génération du texte : La réponse du service IA était malformée. Veuillez réessayer.
+2026-03-13 10:27:38,163 [ERROR] backend.ai.gemini_client: Erreur inattendue lors de l'appel Gemini (SDK v3): 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-13 10:27:38,202 [ERROR] frontend.pages.page_texte: Erreur génération texte: Échec de la génération du texte : Erreur inattendue avec le service IA. Veuillez réessayer plus tard.
+{"timestamp": "2026-03-16 14:06:43,383", "level": "ERROR", "logger": "frontend.pages.page_analyse", "message": "Erreur lors de l'analyse: cannot import name 'CEFR_MAP' from 'backend.services.texte_service' (C:\\Users\\dell\\OneDrive\\Desktop\\PROF PROJECT\\cem_generator\\backend\\services\\texte_service.py)"}
