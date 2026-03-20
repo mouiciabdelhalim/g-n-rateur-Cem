@@ -1,8 +1,15 @@
 streamlit
-google-genai
 google-generativeai
+google-genai
 Pillow
 python-dotenv
 reportlab
 openpyxl
-
+PyPDF2
+python-docx
+SQLAlchemy
+pandas
+requests
+bcrypt
+passlib
+PyJWT
